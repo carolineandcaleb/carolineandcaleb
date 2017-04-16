@@ -67,12 +67,14 @@
 
 @mixin serif-font1()
 {
-font-family: 'Cormorant Garamond', serif;
+  font-family: 'Julius Sans One', sans-serif;
+// font-family: 'Cormorant Garamond', serif;
 }
 
 @mixin serif-font2()
 {
-font-family: 'Dynalight', cursive;
+  font-family: 'Poiret One', cursive;
+// font-family: 'Dynalight', cursive;
 }
 
 /*@mixin serif-font3()
@@ -82,5 +84,6 @@ font-family: 'Dynalight', cursive;
 
 @mixin serif-font3()
 {
-	font-family: 'Special Elite', cursive;
+    font-family: 'Poiret One', cursive;
+	// font-family: 'Special Elite', cursive;
 }

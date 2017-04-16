@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    @include serif-font3;
+    @include serif-font2;
 }
 
 hr {
@@ -28,7 +28,8 @@ a {
 }
 
 h1 {@include serif-font1;}
-h2 {@include serif-font2;}
+h2 {@include serif-font2;
+font-weight: bold;}
 h3 {@include serif-font3;}
 h4,
 h5,
@@ -37,14 +38,35 @@ h6 {
 }
 
 p {
-    @include serif-font3;
+    @include serif-font2;
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .bg-primary {
     background-color: $theme-primary;
+}
+
+.bg-kangaroo {
+    background-image: url('../img/kangaroo/beach60.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bg-trianglify {
+    background-image: url('../img/p1.png');
+    // background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.skyline {
+    background-image: url('../img/cc3.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    //background-attachment: fixed;
 }
 
 .bg-dark {
@@ -78,7 +100,7 @@ aside {
     .navbar-header .navbar-brand {
         color: $theme-primary;
         @include serif-font3;
-        font-weight: 700;
+        font-weight: bold;
         text-transform: uppercase;
         &:hover,
         &:focus {
@@ -90,7 +112,7 @@ aside {
             > a,
             > a:focus {
                 text-transform: uppercase;
-                font-weight: 700;
+                font-weight: bold;
                 font-size: 13px;
                 color: $theme-dark;
                 &:hover {
@@ -149,14 +171,14 @@ aside {
 }
 
 // Homepage Header
-
 header {
     position: relative;
     width: 100%;
-    min-height: 50%;
+    // min-height: 100%;
     @include background-cover;
-    background-position: center;
-    background-image: url('../img/australia.png');
+    background-position: top;
+    background-image: url('../img/cc1.jpg');
+    // background-attachment: fixed;
     text-align: center;
     color: black;
     .header-content {
@@ -195,7 +217,7 @@ header {
         min-height: 100%;
         .header-content {
             position: absolute;
-            top: 50%;
+            top: 20%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -214,6 +236,7 @@ header {
         }
     }
 }
+
 
 // Sections
 

@@ -1,6 +1,7 @@
 # Site settings
 title: 'Caroline and Caleb'
-email: caleb.sawade@gmail.com
+carolineemail: caroline.sarna@gmail.com
+calebemail: caleb.sawade@mclaren.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site

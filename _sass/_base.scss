@@ -28,8 +28,7 @@ a {
 }
 
 h1 {@include serif-font1;}
-h2 {@include serif-font2;
-font-weight: bold;}
+h2 {@include serif-font2;}
 h3 {@include serif-font3;}
 h4,
 h5,
@@ -50,23 +49,28 @@ p {
 }
 
 .bg-kangaroo {
-    background-image: url('../img/kangaroo/beach60.jpg');
+    background-image: url('../img/kangaroo/beach80.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
+.bg-kangaroo-text {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
 .bg-trianglify {
-    background-image: url('../img/p1.png');
+    background-image: url('../img/p9.png');
     // background-size: 100%;
     background-repeat: no-repeat;
 }
 
-.skyline {
-    background-image: url('../img/cc3.jpg');
-    background-size: 100%;
+
+.bg-getting {
+    background-image: url('../img/p9.png');
+    // background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 100%;
-    //background-attachment: fixed;
 }
 
 .bg-dark {
@@ -177,8 +181,8 @@ header {
     // min-height: 100%;
     @include background-cover;
     background-position: top;
-    background-image: url('../img/cc1.jpg');
-    // background-attachment: fixed;
+    background-image: url('../img/p3.png');
+    background-attachment: fixed;
     text-align: center;
     color: black;
     .header-content {

@@ -47,6 +47,11 @@ p {
     font-weight: bold;
 }
 
+h1.name {
+  color: black;
+}
+
+
 .bg-primary {
     background-color: $theme-primary;
 }
@@ -64,15 +69,15 @@ p {
 }
 
 .bg-trianglify {
-    background-image: url('../img/p9.png');
-    // background-size: 100%;
+    background-image: url('../img/p12.png');
+    min-width: 100%;
     background-repeat: no-repeat;
 }
 
 
 .bg-getting {
-    background-image: url('../img/p9.png');
-    // background-size: 100%;
+    background-image: url('../img/p13.png');
+    min-width: 100%;
     background-repeat: no-repeat;
 }
 

@@ -190,7 +190,7 @@ header {
     @include background-cover;
     background-position: top;
     background-image: url('../img/p3.png');
-    background-attachment: fixed;
+    // background-attachment: scroll;
     text-align: center;
     color: black;
     .header-content {

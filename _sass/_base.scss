@@ -28,6 +28,10 @@ a {
     }
 }
 
+p {
+  font-size: 20px;
+}
+
 h1 {@include serif-font1;}
 h2 {@include serif-font2;
 font-weight: bold;}
@@ -41,16 +45,23 @@ h6 {
 
 p {
     @include serif-font2;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
 h1.name {
-  color: black;
+  color: #e2e2e0;
 }
 
+p.notname {
+  font-size: 40px;
+}
+
+p.faq {
+  font-size: 16px;
+}
 
 .bg-primary {
     background-color: $theme-primary;
@@ -239,7 +250,7 @@ header {
                 margin-left: auto;
                 margin-right: auto;
                 p {
-                    font-size: 18px;
+                    font-size: 20px;
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
